@@ -1,2 +1,2 @@
 # proyecto_final
-miembros del grupo: alex urquilla, david mors, angel ortez, jorge villalobos
+miembros del grupo: Alexander urquilla, david mors, angel ortez, jorge villalobos
