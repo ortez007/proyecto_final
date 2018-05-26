@@ -21,7 +21,7 @@ void loop() {
   miliVolts = (analogRead(sensor) * 5000L) / 1023; //calculando los mv en la entrada
   temperatura = miliVolts / 10; //calculamos la temperatura
 
-  brillo = map(temperatura, 10, 40, 0, 255); //ajustamos la escala de temperatura para usar analowrite
+  brillo = map(temperatura, 0, 40, 0, 255); //ajustamos la escala de temperatura para usar analowrite
   brillo = constrain(brillo, 0, 255);
 
   analogWrite(ledRojo, brillo);
